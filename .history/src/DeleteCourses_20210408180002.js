@@ -1,0 +1,10 @@
+import React from 'react'
+
+export default function DeleteCourses({course,handleDelete}) {
+  return (
+    <div>
+      <button onClick={()=>handleDelete(course.name)}>Delete Concepts</button>
+      <li key={course.id}>{course.name}</li>
+    </div>
+  )
+}

@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-import Dropdown from './Dropdown'
 
 export class App extends Component {
   render() {
     return (
       <div>
-        <Dropdown/>
+        <div class="alert alert-primary" role="alert">
+  This is a primary alert—check it out!
+</div>
       </div>
     )
   }
